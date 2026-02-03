@@ -2,7 +2,7 @@
 
 GhostPad is a sleek, minimalist, and performance-driven web-based notepad. Designed with a deep-dark aesthetic (Void Purple theme), it provides a distraction-free environment for quick notes and brainstorming.
 
-![GhostPad Preview](https://via.placeholder.com/800x450/111827/a855f7?text=GhostPad+Note+System)
+![GhostPad Preview](https://ghostpad.onrender.com)
 
 ## ✨ Features
 - **Modern UI:** Built with a dark-mode first approach using Tailwind-inspired colors.
