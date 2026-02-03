@@ -44,6 +44,15 @@ textarea {
   resize: none;
 }
 
+textarea:focus {
+  outline: none;
+  border-color: #a855f7;
+  /* Add purple glow  */
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+  background-color: #1a1f2e;
+  transition: all 0.3s ease;
+}
+
 button {
   margin-top: 10px;
   width: 100%;
@@ -62,35 +71,57 @@ button:hover {
 
 .note {
   background-color: #374151;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 25px 15px 15px 15px;
+  margin-top: 15px;
   border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;             /* Guna flex balik */
+  justify-content: space-between; /* Teks kiri, butang kanan */
+  align-items: center;       /* Center kan secara menegak */
+  gap: 15px;                 /* Jarak antara teks dan butang */
+  transition: all 0.2s ease;
+  position: relative;        /* Supaya tarikh (small) still boleh lekat atas */
+  transition: all 0.2s ease;
 }
 
 .note p {
   margin: 0;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  flex: 1;
 }
 
 .note small {
-  margin-left: 10px;
+  position: absolute;
+  top: 8px;    /* Turunkan balik masuk dalam kotak */
+  right: 12px; /* Jarakkan sikit dari dinding kanan */
+  font-size: 0.65rem;
   color: #9ca3af;
+  opacity: 0.7;
 }
 
 .note button {
-  width: auto;
+  width: auto; 
+  margin-top: 0;
+  padding: 6px 10px;
   background-color: #ef4444;
-  padding: 5px 8px;
+  flex-shrink: 0; /* Butang takkan penyek */
 }
 
 .note button:hover {
-  background-color: #b91c1c;
+  background: #ef4444;
+  color: white;
+  transform: scale(1.1);
 }
 
 .note-list {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.note:hover {
+  transform: translateY(-3px); /* Nota naik sikit bila hover */
+  border-color: #374151;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #2d3748; /* Tukar kaler sikit */
 }
