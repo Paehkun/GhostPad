@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111827;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px 20px;
+  background-color: #1f2937;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  height: fit-content;
+}
+
+h1 {
+  text-align: center;
+  color: #a855f7;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background-color: #111827;
+  color: white;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #7c3aed;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b21b6;
+}
+
+.note {
+  background-color: #374151;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note p {
+  margin: 0;
+}
+
+.note small {
+  margin-left: 10px;
+  color: #9ca3af;
+}
+
+.note button {
+  width: auto;
+  background-color: #ef4444;
+  padding: 5px 8px;
+}
+
+.note button:hover {
+  background-color: #b91c1c;
+}
+
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
