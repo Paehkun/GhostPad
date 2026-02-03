@@ -57,4 +57,4 @@ To host this on Render:
 
 Click Deploy.
 
-Developed with 💜 by Paehkun
+Developed with 💜 by [Paehkun](https://github.com/Paehkun)
