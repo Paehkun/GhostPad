@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>🌟 Modern Notepad</h1>
+      <h1>🌑 GhostPad</h1>
       <NoteEditor addNote={addNote} />
       <NoteList notes={notes} deleteNote={deleteNote} />
     </div>

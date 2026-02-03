@@ -12,7 +12,7 @@ export default function NoteEditor({ addNote }) {
   return (
     <div className="editor">
       <textarea
-      rows="5"
+      rows="8"
         placeholder="Write your note here..."
         value={text}
         onChange={e => setText(e.target.value)}
