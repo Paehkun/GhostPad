@@ -39,7 +39,8 @@ If you want to run GhostPad locally:
 
    ```bash
 
-npm run dev
+    npm run dev
+
 
 🛠️ Deployment on Render
 To host this on Render:
